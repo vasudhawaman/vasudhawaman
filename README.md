@@ -5,7 +5,7 @@ Final-year Electrical Engineering student at **IIT Indore** and a software engin
 - 💼 Software Engineering Intern at **Google** (AICS, Commerce Search), where I built an LLM agent on a C++ framework for catalog schema mapping
 - 🏆 **ICPC AlgoQueen Global Rank 46** (2025) · CodeChef 3-Star (max 1782) · 500+ problems solved
 - 🧑‍🤝‍🧑 Club Co-Head at **Google Developer Group, IIT Indore**
-- 🔭 Interested in backend / systems engineering, LLM agents, and networking & security tooling
+- 🔭 Interested in backend / systems engineering, LLM agents, and real-time applications
 - 🌍 Open to full-time software engineering roles and relocation
 
 ## 🛠️ Tech Stack
@@ -37,13 +37,25 @@ Final-year Electrical Engineering student at **IIT Indore** and a software engin
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**proxy_webserver**](https://github.com/vasudhawaman/proxy_webserver) | HTTP/HTTPS intercepting proxy with a Chrome extension. Scores each site's risk using Google Safe Browsing, security-header checks, TLS certificate validation, and HTML analysis. Built with core Node.js modules only, no frameworks. | Node.js, node-forge, EJS |
+| [**TalKPal**](https://github.com/vasudhawaman/Slack-Whatsapp-Clone) | Real-time chat platform built at Google Developer Group, IIT Indore. Private and group chats (admin-managed), P2P video calls, audio/video recording, file sharing, voice-to-text, message translation, and a sticker maker using TensorFlow.js body segmentation. Login with JWT, Google OAuth, and email OTP. | Node.js, Express, Socket.io, PeerJS, MySQL, React, TensorFlow.js |
 | [**face_app**](https://github.com/vasudhawaman/face_app) | Unsupervised face recognition and clustering on the LFW dataset using FaceNet embeddings (NMI 0.989, ARI 0.989). Compares HDBSCAN, OPTICS, and FINCH. | Python, FaceNet, HDBSCAN, UMAP |
 | [**music-app**](https://github.com/vasudhawaman/music-app) · [backend](https://github.com/vasudhawaman/backend_musicify) · [recommender](https://github.com/vasudhawaman/recommendation_api) | Musicify, a music streaming platform with OTP and Google OAuth login, song uploads, playlist sharing, radio, a content-based recommender, and a Gemini chatbot. 🥈 2nd place, Web Dev, IITISOC '24. | MERN, FastAPI, Cloudinary |
+| [**tinkerer-s-qr-scanner**](https://github.com/vasudhawaman/tinkerer-s-qr-scanner) | Equipment tracking for a makerspace lab. Scan a device's QR code in the browser to check its in-use status and log who used it and when, with Google OAuth login and a usage history API. | React, Express, MongoDB, Passport, JWT, Tailwind |
+| [**people_counter**](https://github.com/vasudhawaman/people_counter) | Live occupancy counter with per-seat counts and a running total. The server streams updates to the dashboard over Server-Sent Events, with no page refresh. | Node.js, Express 5, SSE, EJS |
 | [**hyperledger_basic_asset_transfer**](https://github.com/vasudhawaman/hyperledger_basic_asset_transfer) | CLI and REST API (`GET/POST/PUT/DELETE`) for creating, reading, updating, and deleting assets on a Hyperledger Fabric network over gRPC. | Node.js, Express, Hyperledger Fabric |
 | [**line_follower**](https://github.com/vasudhawaman/line_follower) | Autonomous robot that avoids obstacles (ultrasonic) and follows lines (IR), running on an ESP32. | C++, ESP32, L293D |
 | [**verily_clock**](https://github.com/vasudhawaman/verily_clock) | Configurable Verilog clock generator with adjustable frequency, phase shift, and duty cycle, plus testbenches. | Verilog |
-| [**BookIt**](https://github.com/vasudhawaman/BookIt) · [**Connectify**](https://github.com/vasudhawaman/Connectify) · [**quizmakerapp**](https://github.com/vasudhawaman/quizmakerapp) | Server-rendered full-stack apps: an online bookstore with cart and reviews, a social feed with posts and comments, and a quiz maker with login. | Node.js, Express, EJS, PostgreSQL |
+
+### More projects
+
+- [**BookIt**](https://github.com/vasudhawaman/BookIt): online bookstore with genre and price filters, cart, and reviews (Node.js, Express, EJS, PostgreSQL)
+- [**Connectify**](https://github.com/vasudhawaman/Connectify): social feed with posts, comments, and user profiles (Node.js, Express, EJS, PostgreSQL)
+- [**quizmakerapp**](https://github.com/vasudhawaman/quizmakerapp): create and take your own flashcard-style quizzes (Node.js, PostgreSQL)
+- [**blogwebsite**](https://github.com/vasudhawaman/blogwebsite): blogging site (Node.js, Express, EJS)
+- [**photo_gallery**](https://github.com/vasudhawaman/photo_gallery): photo gallery with separate frontend and backend (JavaScript)
+- [**file-organiser**](https://github.com/vasudhawaman/file-organiser): Node.js CLI that sorts a directory's files into folders by type (images, music, JS, HTML, CSS, misc)
+- [**pomdoro**](https://github.com/vasudhawaman/pomdoro): Pomodoro timer with a circular progress bar and particle effects (React)
+- [**githubexplorer**](https://github.com/vasudhawaman/githubexplorer) · [**weather**](https://github.com/vasudhawaman/weather) · [**portfolio**](https://github.com/vasudhawaman/portfolio): early frontend projects in HTML, CSS, and JavaScript
 
 ## 🤝 Open Source
 
